@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="location" table="sn_bball_game">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="projected_weather" table="sn_bball_game">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Location</column_label>
+        <column_label>Projected Weather</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Sport Court</default_value>
+        <default_value>Sunnuy</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,10 +27,10 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>location</element>
+        <element>projected_weather</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>sn_bball_game</name>
@@ -50,18 +50,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-03-03 03:25:40</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>404a4e48db631200a601d7a0cf96196c</sys_id>
+        <sys_created_on>2016-05-17 23:28:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>726a46c4db631200a601d7a0cf961998</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Location</sys_name>
+        <sys_name>Projected Weather</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
-        <sys_update_name>sys_dictionary_sn_bball_game_location</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-05-17 23:24:12</sys_updated_on>
+        <sys_update_name>sys_dictionary_sn_bball_game_projected_weather</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-17 23:28:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
